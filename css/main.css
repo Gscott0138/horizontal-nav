@@ -1,29 +1,75 @@
 html {
-    box-sizing: border-box;
-    background-color: #dbd6cf;
-    line-height: 1.5;
-    padding: 0.75rem;
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-header {
-  width=100%;
-
-}
-
-h1 {
-  color: #fff;
+body {
   background-color: #79756f;
-  text-align: center;
-  font-family: "Bevan", sans-serif;
-  padding: .75em;
+  width: 100%;
+  border-style: solid;
+  color: #595652;
   margin: 0;
+  padding: .75em;
 }
 
 .header {
-  width: 100%;
-  background: #ccc;
+  background-color: #79756f;
+  font-family: Bevan, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.intro {
+  background-color: #713837;
+  border-radius: 5px;
+  padding: .6em;
+  margin: .3em;
+}
+
+.terr {
+  background-color: #713837;
+  border-radius: 5px;
+  padding: .6em;
+  margin: 0;
+}
+
+.mars {
+  background-color: #713837;
+  border-radius: 5px;
+  padding: .6em;
+  margin: .3em;
+}
+
+.venus {
+  background-color: #713837;
+  border-radius: 5px;
+  padding: .6em;
+  margin: .3em;
 }
