@@ -35,9 +35,11 @@ a {
 }
 
 a:hover {
+  border-radius: 5px;
   background-color: #f33;
   text-decoration: none;
   list-style: none;
+  padding: .75em;
 }
 
 h1 {
@@ -58,30 +60,9 @@ nav {
   color: #fff;
 }
 
-.intro {
+.intro, .terr, .mars, .venus {
   background-color: #713837;
   border-radius: 5px;
   padding: .6em;
-  margin: .3em;
-}
-
-.terr {
-  background-color: #713837;
-  border-radius: 5px;
-  padding: .6em;
-  margin: 0;
-}
-
-.mars {
-  background-color: #713837;
-  border-radius: 5px;
-  padding: .6em;
-  margin: .3em;
-}
-
-.venus {
-  background-color: #713837;
-  border-radius: 5px;
-  padding: .6em;
-  margin: .3em;
+  margin-bottom: .3em;
 }
